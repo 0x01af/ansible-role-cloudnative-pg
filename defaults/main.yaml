@@ -1,2 +1,3 @@
 ---
 # Defaults of the role
+run_mode: 'bootstrap' # set run_mode at your playbook
