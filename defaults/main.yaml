@@ -1,3 +1,8 @@
 ---
-# Defaults of the role
+# General defaults
 playbook_action: 'bootstrap' # default behavior of Ansible plays is bootstrapping and updating
+# Role defaults
+cloudnative_pg:
+  version: '1.0.0'
+  shared_database:
+    enabled: true
